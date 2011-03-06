@@ -32,7 +32,15 @@ public class Main {
 		System.out.println("a[3]: " + a[3]);
 		System.out.println("a[2]: " + a[2]);
 		System.out.println("a[1]: " + a[1]);
-		System.out.println("a[0]: " + a[0]);
+		System.out.println("a[0]: " + a[0]) ; //+ ", a[a[0]+1]: " + a[a[0]+1])
+		
+		System.out.println();
+		
+		System.out.println("b[4]: " + b[4]);
+		System.out.println("b[3]: " + b[3]);
+		System.out.println("b[2]: " + b[2]);
+		System.out.println("b[1]: " + b[1]);
+		System.out.println("b[0]: " + b[0]) ;
 		
 		System.out.println();
 		
@@ -42,7 +50,7 @@ public class Main {
 		System.out.println("c[1]: " + c[1]);
 		System.out.println("c[0]: " + c[0]);
 		
-		algo.Algorithm(a, b, c);
+		algo.Algorithm(a, b, c, i.disks);
 		
 		
 
