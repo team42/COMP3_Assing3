@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 
 public class initialising {
@@ -6,7 +6,7 @@ public class initialising {
 	int k = 1;
 	public int[] copyArray(int[] array)
 	{
-		int[] copy = java.util.Arrays.copyOf(array, array.length);		
+		int[] copy = Arrays.copyOf(array, array.length);		
 		return copy;		
 	}
 	
